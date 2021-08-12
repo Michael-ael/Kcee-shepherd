@@ -150,7 +150,41 @@ body.dark .cid-sE0DUnyXPK .navbar.opened{
   background-color: #000 !important;
 }
 
-@media(max-width: 500px){
+body.dark .features23{
+  background-color: #000;
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+body.dark .header13{
+  background-color: #000 !important;
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+body.dark .header13 h1 p{
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+body.dark .content14{
+  background-color: #000;
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+body.dark .contacts2{
+  background-color: #000;
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+body.dark .contacts2 .card .card-wrapper{
+  background-color: #111 !important;
+  transition: 0.5s;
+}
+
+@media(max-width:500px){
   .label{
     transform: scale(1);
     margin-left: 0px;
