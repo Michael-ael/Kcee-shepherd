@@ -92,6 +92,64 @@ body.dark .features15 .content-wrapper .text-wrapper #button-dark a{
    color: #000 !important;
 }
 
+body.dark .features4{
+  background-color: #111;
+  transition: 0.5s;
+  color: #fff !important;
+}
+
+body.dark .features4 .mbr-section-head h4{
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+body.dark .features4 .item-wrapper{
+  background-color: #000;
+  transition: 0.5s;
+}
+
+body.dark .testimonials2{
+  background-color: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+body.dark .team1{
+  background-color: #000 !important;
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+body.dark .card-wrap{
+  background-color: #111;
+  color: #fff;
+  transition: 0.5s;
+}
+
+body.dark .features16{
+  background-color: #111;
+  color: #fff !important;
+  transition: 0.5s;
+}
+
+body.dark .features16 .content-wrapper{
+  background-color: #000;
+  transition: 0.5s;
+}
+
+body.dark .navbar button.navbar-toggler .hamburger span{
+  background-color: #fff;
+  transition: 0.5s;
+}
+
+body.dark nav.opened button.navbar-toggler .hamburger span{
+  background-color: #ffffff;
+}
+
+body.dark .cid-sE0DUnyXPK .navbar.opened{
+  background-color: #000 !important;
+}
+
 @media(max-width: 500px){
   .label{
     transform: scale(1);
