@@ -184,6 +184,15 @@ body.dark .contacts2 .card .card-wrapper{
   transition: 0.5s;
 }
 
+.tables-section{
+  background-color: #111;
+  color: #fff !important;
+}
+
+.table td{
+  color: #fff !important;
+}
+
 @media(max-width:500px){
   .label{
     transform: scale(1);

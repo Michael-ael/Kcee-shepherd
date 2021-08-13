@@ -4,7 +4,6 @@ let darkMode = localStorage.getItem('darkMode');
 // checkbox.addEventListener('change', () => {
 //     document.body.classList.toggle('dark')
 // });
-
 checkbox.addEventListener('click', () => {
     darkMode = localStorage.getItem('darkMode');
 
