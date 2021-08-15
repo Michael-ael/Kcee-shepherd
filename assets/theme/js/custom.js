@@ -1,9 +1,10 @@
 const checkbox = document.getElementById('checkbox');
 let darkMode = localStorage.getItem('darkMode');
+const modal = document.getElementById('myModal');
+const btn = document.getElementById('myBtn');
+let span = document.getElementsByClassName('close')[0];
  
-// checkbox.addEventListener('change', () => {
-//     document.body.classList.toggle('dark')
-// });
+
 checkbox.addEventListener('click', () => {
     darkMode = localStorage.getItem('darkMode');
 
@@ -27,3 +28,17 @@ const disableDarkMode = () => {
 if(darkMode === 'enabled'){
     enableDarkMode(); 
 }
+
+btn.addEventListener('click', () => {
+    modal.style.display = "block";
+})
+
+span.addEventListener('click', () => {
+    modal.style.display = "none";
+})
+
+window.addEventListener('click', (event) => {
+    if(event.target === modal){
+        modal.style.display = 'none';
+    }
+})

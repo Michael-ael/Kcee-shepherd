@@ -184,6 +184,24 @@ body.dark .contacts2 .card .card-wrapper{
   transition: 0.5s;
 }
 
+body.dark .content2{
+  background: #000;
+  transition: 0.5s;
+  color: #fff !important;
+}
+
+body.dark .content2 .mbr-section-head h4{
+  color: #fff !important;
+}
+
+body.dark .content2 .item .item-wrapper{
+  background: #111;
+}
+
+body.dark .content2 .item .item-wrapper .item-content h5{
+  color: #fff !important;
+}
+
 .tables-section{
   background-color: #111;
   color: #fff !important;
@@ -191,6 +209,76 @@ body.dark .contacts2 .card .card-wrapper{
 
 .table td{
   color: #fff !important;
+}
+
+::-webkit-scrollbar-track{
+  width: 5px;
+}
+
+
+/* modal */
+.modal{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+.modal-content{
+  background-color: #111;
+  margin: 10% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%; /* Could be more or less, depending on screen size */
+}
+
+.modal-content form.details{
+  height: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding: 20px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  border-bottom: none;
+}
+
+.modal-content form.details input{
+  width: 100%;
+  margin: 20px auto;
+  background: rgba(225, 225, 225, 0.2);
+  border: none;
+  outline: none;
+  padding: 15px 20px;
+  border-radius: 35px;
+  border-right: 1px solid rgba(225, 225, 225, 0.2);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.2);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content 
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 @media(max-width:500px){
