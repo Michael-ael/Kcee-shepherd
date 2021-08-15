@@ -265,8 +265,6 @@ body.dark .content2 .item .item-wrapper .item-content h5{
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
-.modal-content 
-
 .close {
   color: #aaa;
   float: right;
@@ -286,4 +284,11 @@ body.dark .content2 .item .item-wrapper .item-content h5{
     transform: scale(1);
     margin-left: 0px;
   }
+
+  .modal-content{
+    width: 95%;
+    height: 80%;
+    margin-top: 100px;
+  }
+
 }
