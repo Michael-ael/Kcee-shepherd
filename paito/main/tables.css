@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 1.6;
+}
+
+#body{
+    background-image: url(../main/images/tablesBackground.jpg)no-repeat center center !important;
+}
