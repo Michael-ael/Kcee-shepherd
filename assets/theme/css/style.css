@@ -907,6 +907,10 @@ blockquote {
     padding-left: 16px;
     padding-right: 16px;
   }
+
+  .cid-sE0DUnyXPK .navbar-brand .navbar-caption{
+    display: none !important;
+  }
 }
 .card-wrapper,
 .item-wrapper {
