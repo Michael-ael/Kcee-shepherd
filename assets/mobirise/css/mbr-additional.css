@@ -478,6 +478,10 @@ body {
 .text-black {
   color: #232323 !important;
 }
+
+body.dark .text-black{
+  color: #ffffff !important;
+}
 a.text-primary:hover,
 a.text-primary:focus,
 a.text-primary.active {
